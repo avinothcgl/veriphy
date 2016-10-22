@@ -1,0 +1,10 @@
+! user access for Ansible and api
+
+username ansible secret 0 force10
+username eapi secret 0 force10
+
+! http access
+
+management api http-commands
+   protocol http localhost
+   no shutdown
